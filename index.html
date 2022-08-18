@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baking Bear</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="warp">
+      <!-- nav s -->
+      <nav>
+        <h1>케이크 만드는 곰돌</h1>
+        <p>재료의 양을 변환해 보아요!</p>
+      </nav>
+      <!-- nav e -->
+      <section>
+        <h2 class="title">사이즈</h2>
+        <div class="wish-and-have">
+          <!-- wish s -->
+          <div class="wish">
+            <h3>만들고 싶은 틀</h3>
+            <div class="wish_inner">
+              <label for="make-shape">케이크 틀</label>
+              <select name="shape" id="make-shape">
+                <option value="" selected>--Please choose an option--</option>
+                <option value="self">직접입력</option>
+                <option value="circle_s">원형팬초미니</option>
+                <option value="circle_0">높은원형팬미니</option>
+                <option value="circle_1">높은원형팬1호</option>
+                <option value="circle_2">높은원형팬2호</option>
+                <option value="circle_3">높은원형팬3호</option>
+                <option value="rect_0">정사각팬1호</option>
+                <option value="rect_1">정사각팬2호</option>
+                <option value="rect_2">정사각팬3호</option>
+                <option value="rect_3">정사각팬4호</option>
+                <option value="rect_4">정사각팬5호</option>
+                <option value="rect_5">정사각팬6호</option>
+                <option value="whip">생크림카스테라</option>
+                <option value="chee_0">미니치즈케이크팬</option>
+                <option value="chee_1">치즈케이크팬1호</option>
+                <option value="chee_2">치즈케이크팬2호</option>
+              </select>
+              <div>
+                <div class="wish_size">
+                  <div class="wish_size_tit">사이즈</div>
+                  <img class="wish_size_img" src="" alt="" srcset="" />
+                </div>
+                <div>
+                  <label for="wish_size_w">가로</label>
+                  <input type="number" name="wish_size_w" id="wish_size_w" />
+                  <label for="wish_size_d">세로</label>
+                  <input type="number" name="wish_size_d" id="wish_size_d" />
+                  <label for="wish_size_h">높이</label>
+                  <input type="number" name="wish_size_h" id="wish_size_h" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- wish e -->
+          <div class="pulse">
+            <span class="material-symbols-outlined"> swap_horiz </span>
+          </div>
+        </div>
+
+        <div class="have">
+          <h3>내가 가진 틀</h3>
+          <div class="make_inner">
+            <label for="make-shape">케이크 틀</label>
+            <select name="shape" id="make-shape">
+              <option value="" selected>--Please choose an option--</option>
+              <option value="self">직접입력</option>
+              <option value="circle_s">원형팬초미니</option>
+              <option value="circle_0">높은원형팬미니</option>
+              <option value="circle_1">높은원형팬1호</option>
+              <option value="circle_2">높은원형팬2호</option>
+              <option value="circle_3">높은원형팬3호</option>
+              <option value="rect_0">정사각팬1호</option>
+              <option value="rect_1">정사각팬2호</option>
+              <option value="rect_2">정사각팬3호</option>
+              <option value="rect_3">정사각팬4호</option>
+              <option value="rect_4">정사각팬5호</option>
+              <option value="rect_5">정사각팬6호</option>
+              <option value="whip">생크림카스테라</option>
+              <option value="chee_0">미니치즈케이크팬</option>
+              <option value="chee_1">치즈케이크팬1호</option>
+              <option value="chee_2">치즈케이크팬2호</option>
+            </select>
+            <div>
+              <div class="make_size">
+                <div class="make_size_tit">사이즈</div>
+                <img class="make_size_img" src="" alt="" srcset="" />
+              </div>
+              <div>
+                <label for="make_size_w">가로</label>
+                <input type="number" name="make_size_w" id="make_size_w" />
+                <label for="make_size_d">세로</label>
+                <input type="number" name="make_size_d" id="make_size_d" />
+                <label for="make_size_h">높이</label>
+                <input type="number" name="make_size_h" id="make_size_h" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
